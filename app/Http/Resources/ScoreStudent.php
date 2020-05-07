@@ -14,6 +14,12 @@ class ScoreStudent extends JsonResource
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'id' => $this->id,
+            'nama' => $this->nama,
+            'nis' => $this->nis,
+            'asrama' => $this->asrama,
+            'nilai' => $this->nilai,
+        ];
     }
 }

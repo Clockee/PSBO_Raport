@@ -5,8 +5,9 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+
 class Student extends Model
 {
     //Using Mass Assignment from Laravel
-    protected $fillable = ['nama','nis','asrama'];
+    protected $fillable = ['nama', 'nis', 'asrama'];
 }
