@@ -5,8 +5,8 @@
 @section('title', 'Biodata Siswa')
 
 @section('container')
-<div class="container">
-        <div class=table-responsive>
+<div>
+        <div class="table">
             <h1 class="mt-2"> Biodata Siswa</h1>
 
             <a href="/students/create" class="btn btn-primary" my-4>Tambah Data Siswa</a>
@@ -28,7 +28,23 @@
                         <th scope="col">Nama Lengkap</th>
                         <th scope="col">NIS</th>
                         <th scope="col">Asrama</th>
-                        <th scope="col">Cek Detil</th>
+                        <th scope="col">Jenis Kelamin</th>
+                        <th scope="col">Golongan Darah</th>
+                        <th scope="col">Tinggi Badan</th>
+                        <th scope="col">Berat Badan</th>
+                        <th scope="col">Alamat</th>
+
+                        <th scope="col">Nama Ayah</th>
+                        <th scope="col">Tempat Lahir Ayah</th>
+                        <th scope="col">Tanggal Lahir Ayah</th>
+                        <th scope="col">Pekerjaan Ayah</th>
+                        <th scope="col">Alamat Ayah</th>
+
+                        <th scope="col">Nama Ibu</th>
+                        <th scope="col">Tempat Lahir Ibu</th>
+                        <th scope="col">Tanggal Lahir Ibu</th>
+                        <th scope="col">Pekerjaan Ibu</th>
+                        <th scope="col">Alamat Ibu</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,6 +54,23 @@
                             <td>{{ $student -> nama}}</td>
                             <td>{{ $student -> nis}}</td>
                             <td>{{ $student -> asrama}}</td>
+                            <td>{{ $student -> jenis_kelamin}}</td>
+                            <td>{{ $student -> golongan_darah}}</td>
+                            <td>{{ $student -> tinggi_badan}}</td>
+                            <td>{{ $student -> berat_badan}}</td>
+                            <td>{{ $student -> alamat}}</td>
+
+                            <td>{{ $student -> nama_ayah}}</td>
+                            <td>{{ $student -> tempat_lahir_ayah}}</td>
+                            <td>{{ $student -> tanggal_lahir_ayah}}</td>
+                            <td>{{ $student -> pekerjaan_ayah}}</td>
+                            <td>{{ $student -> alamat_ayah}}</td>
+
+                            <td>{{ $student -> nama_ibu}}</td>
+                            <td>{{ $student -> tempat_lahir_ibu}}</td>
+                            <td>{{ $student -> tanggal_lahir_ibu}}</td>
+                            <td>{{ $student -> pekerjaan_ibu}}</td>
+                            <td>{{ $student -> alamat_ibu}}</td>
                             <td>
                                 <a href="/students/{{ $student->id }}" class="badge badge-info">Cek Detil</a>
                             </td>

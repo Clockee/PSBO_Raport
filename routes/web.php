@@ -13,37 +13,41 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+   return view('welcome');
+});
 
-//Route::get('/main', function () {
-//    return view('main');
-//});
+Route::get('/main', function () {
+   return view('main');
+});
 
 Route::get('/', function () {
-    return view('loginpage');
+     return view('loginpage');
 });
+
+Route::get('/', function () {
+     return view('dashboard');
+ });
 
 Route::get('/Dashboard', function () {
     return view('dashboard');
 });
 
-Route::post('/dashboards', 'loginController@login');
+// Route::post('/dashboards', 'loginController@login');
 //Route::get('/BiodataSiswa', 'BiodataSiswaController@index');
 
 //StudentsController Manual
 
-// Route::get('/students', 'StudentsController@index');
-// Route::get('/students/create', 'StudentsController@create');
-// Route::get('/students/{student}', 'StudentsController@show');
-// Route::post('/students', 'StudentsController@store');
-// Route::delete('/students/{student}','StudentsController@destroy');
-// Route::get('/students/{student}/edit','StudentsController@edit');
-// Route::patch('/students/{student}','StudentsController@update');
+Route::get('/students', 'StudentsController@index');
+Route::get('/students/create', 'StudentsController@create');
+Route::get('/students/{student}', 'StudentsController@show');
+Route::post('/students', 'StudentsController@store');
+Route::delete('/students/{student}','StudentsController@destroy');
+Route::get('/students/{student}/edit','StudentsController@edit');
+Route::patch('/students/{student}','StudentsController@update');
 
 //Using Controller Resource from Laravel
-Route::resource('students', 'StudentsController');
+// Route::resource('students', 'StudentsController');
 
 Route::get('/scorestudents', 'ScoreStudentsController@index');
 Route::get('/scorestudents/{student}', 'ScoreStudentsController@show');
