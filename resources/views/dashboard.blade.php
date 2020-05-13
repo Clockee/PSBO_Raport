@@ -6,6 +6,11 @@
 
 @section('container')
 
+@if (session('status'))
+    <div class="alert alert-success">
+        {{ session('status') }}
+    </div>
+@endif
 
 <h1> Dashboard</h1>
 

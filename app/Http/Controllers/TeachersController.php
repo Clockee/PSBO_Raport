@@ -20,7 +20,7 @@ class TeachersController extends Controller
             return view('dashboard');
          }
         else{
-            return redirect('/');
+            return redirect('/')->with('status', 'Username atau Password salah!');
         }
     }
 
@@ -42,8 +42,15 @@ class TeachersController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'username' => 'required|max:255',
+            'nama' => 'required|max:255',
+            'nip' => 'required|size:13',
+            'email' => 'required|regex:/^.+@.+$/i',
+            'password' => 'required|min:8'
+        ]);
         Teacher::create($request->all());
-        return redirect('/Dashboard');
+        return redirect('/Dashboard')->with('status', 'Akun Berhasil dibuat!');
     }
 
     /**

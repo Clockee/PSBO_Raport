@@ -91,6 +91,11 @@
                     <h4><b>SIMAK Sekolah Cendekia Baznas</b></h4>
                     </div>
                 </div>
+                @if (session('status'))
+                    <div class="alert alert-danger">
+                        {{ session('status') }}
+                    </div>
+                @endif
                 <form action="/loginme" method="post">
                     <div class="card-content">
                         @csrf

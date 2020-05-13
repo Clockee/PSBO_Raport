@@ -96,23 +96,23 @@
                     <div class="card-content">
                         <div class="form-group">
                             <label for="username">Username</label>
-                            <input type="text" class="form-control" id="username" name="username" placeholder="Masukan Username">
+                            <input type="text" class="form-control " id="username" name="username" placeholder="Masukan Username" Required>
                         </div>
                         <div class="form-group">
                             <label for="nama">Nama</label>
-                            <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Nama">
+                            <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Nama" Required>
                         </div>
                         <div class="form-group">
                             <label for="nip">Nomor Induk Pegawai / Nomor Induk Guru</label>
-                            <input type="text" class="form-control" id="nip" name="nip" placeholder="Masukan nip">
+                            <input type="text" class="form-control" id="nip" name="nip" placeholder="Masukan NIP/NIG | maks: 13 karakter" Required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Masukan Email">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Masukan Email | ex : example@email.com" Required>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" name="password" placeholder="Masukan Password">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Masukan Password | min : 8 karakter" Required>
                         </div>
                         <!-- <input type="hidden" name="_token" value="{{ csrf_token() }}"> -->
                         <div>
