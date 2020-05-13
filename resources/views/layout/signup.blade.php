@@ -91,32 +91,44 @@
                     <h4><b>SIMAK Sekolah Cendekia Baznas</b></h4>
                     </div>
                 </div>
-                <form action="/loginme" method="post">
+                <form method="post" action="/Dashboard">
+                    @csrf
                     <div class="card-content">
-                        @csrf
-                        <div class="form-field">
-                            <label for="username"><b>Username</b></label>
-                            <input type="text" id="username" name="username">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Masukan Username">
                         </div>
-
-                        <div class="form-field">
-                            <label for="password"><b>Password</b></label>
-                            <input type="password" id="password" name="password">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukan Nama">
                         </div>
-
-                        <div class="form-field">
-                            <input type="checkbox" id="remember">
-                            <label for="remember"><b>Remember me</b></label>
+                        <div class="form-group">
+                            <label for="nip">Nomor Induk Pegawai / Nomor Induk Guru</label>
+                            <input type="text" class="form-control" id="nip" name="nip" placeholder="Masukan nip">
                         </div>
-
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Masukan Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Masukan Password">
+                        </div>
+                        <!-- <input type="hidden" name="_token" value="{{ csrf_token() }}"> -->
                         <div>
-                            <button type="submit" class="btn btn-large btn-success custom-btn btn-lg btn-block"><b>Login</b></button>
+                        <button type="submit" class="btn btn-large btn-success custom-btn btn-lg btn-block"> Daftar </button>
                         </div>
-                    
+                        
                     </div>
-                </form>
+                </form><br><br>
+                <div>
+                    <center>
+                        <label for="info"> Sudah punya akun?</label><br>
+                        <a href="/" class="btn btn-primary my-1"> Masuk </a>
+                    </center>
+                </div>
             </div>
-                <a href="/gotosignup" class="btn btn-primary my-3"> Daftar </a>
+                
         </div>
     </div>
 </body>

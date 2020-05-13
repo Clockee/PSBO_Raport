@@ -22,12 +22,22 @@ Route::get('/main', function () {
 });
 
 Route::get('/', function () {
-     return view('loginpage');
+     return view('layout.logintemp');
 });
 
-Route::get('/', function () {
-     return view('dashboard');
- });
+// Route::get('/', function () {
+//      return view('dashboard');
+//  });
+
+
+Route::post('/loginme', 'TeachersController@index');
+
+Route::get('/gotosignup', function () {
+    return view('layout.signup');
+});
+Route::post('/Dashboard', 'TeachersController@store');
+
+// Route::post('/signup', 'TeachersController@store');
 
 Route::get('/Dashboard', function () {
     return view('dashboard');
