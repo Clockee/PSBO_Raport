@@ -28,4 +28,10 @@ class ScoreStudentsController extends Controller
         return view('scorestudents.show', compact('student'));
     }
 
+     public function create()
+    {
+        //
+        return view('scorestudents.show', compact('student'));
+    }
+
 }
