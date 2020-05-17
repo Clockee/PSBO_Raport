@@ -22,13 +22,8 @@ class ScoreStudentsController extends Controller
         return view('scorestudents.index', compact('students'));
     }
 
-    public function show(Student $student)
-    {
-        //
-        return view('scorestudents.show', compact('student'));
-    }
 
-     public function create()
+    public function show(Student $student)
     {
         //
         return view('scorestudents.show', compact('student'));
