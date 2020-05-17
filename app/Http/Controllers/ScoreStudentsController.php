@@ -29,4 +29,22 @@ class ScoreStudentsController extends Controller
         return view('scorestudents.show', compact('student'));
     }
 
+     public function edit(Student $student)
+    {
+        //
+        return view('scorestudents.edit', compact('student'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Student  $student
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, Student $student)
+    {
+       
+    }
+
 }

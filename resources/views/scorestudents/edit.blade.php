@@ -61,8 +61,8 @@
                 <tbody>
                     <tr align="center">
                         <td scope="col">PAI</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
+                        <td scope="col">{{ $nilai -> h1 }}</td>
+                        <td scope="col">{{ $nilai -> h2 }}</td>
                         <td scope="col">BE</td>
                         <td scope="col">BE</td>
                         <td scope="col">BE</td>
