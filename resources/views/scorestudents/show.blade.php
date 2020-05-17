@@ -34,376 +34,309 @@
                 <div class="col-5">
                 <h6 class="mt-2"> Semester 1</h6>
                 </div>
-                <div class="col-10">
-                <table class="table table-bordered">
+                <div class="row-3">
+    <div class="col-12">
+        <div class="mt-3" >
+            <div class="card bg-light mb-3 card-inverse border-success">
+                <table class="table" >
                 <thead>
-  <tr>
-    <th rowspan="2">No</th>
-    <th rowspan="2">Mata Pelajaran</th>
-    <th colspan="3">Nilai Total</th>
-    <th rowspan="2">Rata-rata Mata Pelajaran</th>
-    <th rowspan="2">Predikat</th>
-  </tr>
-  <tr>
-    <th>UTS</th>
-    <th>UAS</th>
-    <th>Tugas</th>
-  </tr>
-    <tr>
-    <td scope="row">1.</td>
-    <td rowspan="2">Pendidikan Agama dan Budi Pekerti</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">2.</td>
-    <td rowspan="2">Pendidikan Kewarganegaraan</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">3.</td>
-    <td rowspan="2">Bahasa Indonesia dan Sastra Indonesia</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">4.</td>
-    <td rowspan="2">Bahasa Inggris</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">5.</td>
-    <td rowspan="2">Matematika</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">6.</td>
-    <td rowspan="2">Ilmu Pengetahuan Alam</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">7.</td>
-    <td rowspan="2">Ilmu Pengetahuan Sosial</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">8.</td>
-    <td rowspan="2">Seni Budaya</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">9.</td>
-    <td rowspan="2">Pendidikan Jasmani, Olahraga dan Kesehatan</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td rowspan="2">10.</td>
-    <td colspan="1">a. Tahfiz Tahsin Qur'an</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>  
-  </tr>
-  <tr>
-    <td>b. Teknologi Informasi dan Komunikasi</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-  </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td rowspan="3">11.</td>
-    <td colspan="1">a. Bahasa dan Sastra Sunda</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>  
-  </tr>
-  <tr>
-    <td>b. Prakarya</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-  </tr>
-  <tr>
-    <td rowspan="1">b. Bahasa Arab</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-  </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Jumlah Nilai</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Rata - Rata Sementara</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Rata-Rata Akhir</td>
-    <td colspan="3">...</td>
-    </tr>
-  </thead>
-</table>
+                    <tr align="center">
+                        <th scope="col">Mata Pelajaran</th>
+                        <th scope="col">H1</th>
+                        <th scope="col">H2</th>
+                        <th scope="col">H3</th>
+                        <th scope="col">H4</th>
+                        <th scope="col">H5</th>
+                        <th scope="col">H6</th>
+                        <th scope="col">H7</th>
+                        <th scope="col">H8</th>
+                        <th scope="col">HPH</th>
+                        <th scope="col">HPST</th>
+                        <th scope="col">HPAS</th>
+                        <th scope="col">HPA</th>
+                        <th scope="col">Predikat</th>
+                        <th scope="col">Ubah</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr align="center">
+                        <td scope="col">PAI</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                <tr align="center">
+                        <td scope="col">PKN</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                <tr align="center">
+                        <td scope="col">BIND</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                <tr align="center">
+                        <td scope="col">BING</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                <tr align="center">
+                        <td scope="col">MTK</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">IPA</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">IPS</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">SB</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">PJOK</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">TIK</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">BSUN</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">PLH</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+                <tbody>
+                      <tr align="center">
+                        <td scope="col">BARAB</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">BE</td>
+                        <td scope="col">92,5</td>
+                        <td>
+                            <a  class="badge badge-info list-group-item-success">UBAH</a>
+                        </td>
+                      </tr>
+                </tbody>
+        </table>
+        </div>
+    </div>
 </div>
+                
 
-<br>
 
-                <div class="col-5">
-                <h6 class="mt-2"> Semester 2</h6>
-                </div>
-                <div class="col-10">
-                <table class="table table-bordered">
-                <thead>
-  <tr>
-    <th rowspan="2">No</th>
-    <th rowspan="2">Mata Pelajaran</th>
-    <th colspan="3">Nilai Total</th>
-    <th rowspan="2">Rata-rata Mata Pelajaran</th>
-    <th rowspan="2">Predikat</th>
-  </tr>
-  <tr>
-    <th>UTS</th>
-    <th>UAS</th>
-    <th>Tugas</th>
-  </tr>
-    <tr>
-    <td scope="row">1.</td>
-    <td rowspan="2">Pendidikan Agama dan Budi Pekerti</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">2.</td>
-    <td rowspan="2">Pendidikan Kewarganegaraan</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">3.</td>
-    <td rowspan="2">Bahasa Indonesia dan Sastra Indonesia</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">4.</td>
-    <td rowspan="2">Bahasa Inggris</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">5.</td>
-    <td rowspan="2">Matematika</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">6.</td>
-    <td rowspan="2">Ilmu Pengetahuan Alam</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">7.</td>
-    <td rowspan="2">Ilmu Pengetahuan Sosial</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">8.</td>
-    <td rowspan="2">Seni Budaya</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td scope="row">9.</td>
-    <td rowspan="2">Pendidikan Jasmani, Olahraga dan Kesehatan</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td rowspan="2">10.</td>
-    <td colspan="1">a. Tahfiz Tahsin Qur'an</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>  
-  </tr>
-  <tr>
-    <td>b. Teknologi Informasi dan Komunikasi</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-  </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td rowspan="3">11.</td>
-    <td colspan="1">a. Bahasa dan Sastra Sunda</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>
-    <td colspan="1">...</td>  
-  </tr>
-  <tr>
-    <td>b. Prakarya</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-  </tr>
-  <tr>
-    <td rowspan="1">b. Bahasa Arab</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-    <td rowspan="1">...</td>
-  </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Jumlah Nilai</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Rata - Rata Sementara</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    <td rowspan="2">...</td>
-    </tr>
-  </thead>
-  <thead>
-  <tr>
-    <td colspan="2">Rata-Rata Akhir</td>
-    <td colspan="3">...</td>
-    </tr>
-  </thead>
-</table>
-</div>
+
 @endsection
