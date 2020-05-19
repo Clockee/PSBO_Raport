@@ -3,13 +3,31 @@
 
 
 ## Deskripsi Singkat
-**SCB SIMAK** merupakan sebuah platform berbasis web yang berfungsi sebagai data siswa yang terpusat. web ini berisi seluruh biodata dan juga nilai akademik siswa pada SMP Cendekia Baznas.
+Dalam mata kuliah PSBO, kelompok kami mendapat client dari SMP Cendekia Baznas yang membutuhkan tempat yang dapat dijadikan sebagai database siswa, atau biasa disebut Sistem Informasi dan Manajemen Akedemik Siswa. sebelumnya, pihak SMP Cendekia Baznas masih menggunakan microsoft excel sebagai database siswa seperti biodata siswa dan juga nilai akademik siswa yang semuanya dihitung manual. Maka dari itu kami ingin memindahkan sistem informasi yang awalnya berupa excel dan hanya bisa diisi oleh perorangan saja menjadi sistem informasi yang bisa diakses oleh guru ataupun tenaga pendidik lainnya.
+
+**SCB SIMAK** merupakan sebuah platform berbasis web yang berfungsi sebagai data siswa yang terpusat. web ini berisi seluruh biodata dan juga nilai akademik siswa pada SMP Cendekia Baznas. seluruh guru maupun tenaga pendidik dapat mengakses SCB SIMAK untuk memasukkan biodata lengkap siswa maupun nilai akademik siswa. pada biodata dapat dilakukan pemasukan data lengkap siswa dan orang tua siswa tersebut, dan juga dapat dilakukan pengubahan data jika dibutuhkan. lalu pada nilai akademik siswa dapat dilakukan pemasukan data berupa nilai ujian harian maupun UTS dan UAS, nantinya akan dihitung rata rata akhir yang nantinya bisa digunakan sebagai nilai rapor semester tersebut. dengan memanfaatkan SCB SIMAK diharapkan seluruh informasi siswa dapat diakses secara online dan juga bisa diakses oleh guru maupun tenaga penididk lainnya.
 
 ## Ruang Lingkup Pengembangan
+### Software
+- Visual Studio Code
+- PhpMyAdmin
 
+### Hardware
+- intel Core i5-7200U
+- RAM 8GB
+
+###Tech-Stack
+- PHP (Back-end)
+- Laravel + Bootstrap (Front-end)
+- MySQL (DBMS)
+- Apache (Server)
 
 ## Diagram (use case, Activity, Class)
+### Use Case Diagram
 
+### Activity Diagram
+
+### Class Diagram
 
 ## Fitur Secara Umum
 
