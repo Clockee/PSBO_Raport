@@ -20,13 +20,13 @@
 
 
 ## Developer + Job Desc
-Project Manager + Web Design
-- Fauzi (osi)
-
-Input Biodata Siswa
-- Front End : Fakhor Fafa & Fauzan
-- Back End  : Chamdan
-
-Input Nilai Akademik
-- Front End : Rafid Rudy Darmawan & Bancin
-- Back End  : Suko Martin & Arya
+| Nama | NIM | Job Desc |
+|---	|---	|---	|
+| Muhammad Fauzan Azhim | G64170009 | Front-end |
+| Chamdan L. Abdulbaaqiy | G64170013 | Back-end | 
+| Fakhir Izaaz Wildhanrahma | G64170017 | Front-end | 
+| Suko Martin | G64170065 | Back-end |
+| Arya Pramuja Pradana | G64170087 | Back-end |
+| Fauzi Muhammad Sulaeman | G64170094 | Project Manager + Designer |
+| Rizal Fajar Bancin | G64170102 | Front-end |
+| Rafid Rudy Darmawan | G64170111 | Front-end |
