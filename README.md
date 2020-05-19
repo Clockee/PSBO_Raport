@@ -1,10 +1,9 @@
 # SCB_SIMAK_Biodata_Nilai 
 
 
-# > Nama Sistem
+Nama Sistem
+
+Deskripsi Singkat
 
 
-# > Deskripsi Singkat
-
-
-# > Ruang Lingkup Pengembangan
+Ruang Lingkup Pengembangan
