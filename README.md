@@ -25,6 +25,7 @@
 Input Biodata Siswa
 - Front End : Fakhor Fafa & Fauzan
 - Back End  : Chamdan
+
 Input Nilai Akademik
 - Front End : Rafid Rudy Darmawan & Bancin
 - Back End  : Suko Martin & Arya
