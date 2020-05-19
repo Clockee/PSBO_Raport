@@ -33,7 +33,7 @@
             .wrapper .sidebar{
             width: 200px;
             height: 100%;
-            background: #16744A;
+            background: #004547;
             padding: 30px 0px;
             position: fixed;
             }
@@ -129,9 +129,9 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:  #16744A;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:  #004547;">
         <a class="navbar-brand" href="#">
-            <img src = "{{ url ('images/logo_smp_CB.png') }}"  class = "center" alt="" width = "165" height = "40">
+            <img src = "{{ url ('images/logoSCB.png') }}"  class = "center" alt="" width = "165" height = "40">
         </a>
     </nav>
 
