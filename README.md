@@ -20,8 +20,14 @@
 
 
 ## Developer + Job Desc
+| Nama | NIM | Job Desc |
+|---	|---	|---	|
+|   	|   	|   	|
+|   	|   	|   	| 
+|   	|   	|   	| 
+
 Project Manager + Web Design
-- Fauzi (osi)
+- Fauzi
 
 Input Biodata Siswa
 - Front End : Fakhor Fafa & Fauzan
