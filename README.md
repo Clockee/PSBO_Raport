@@ -22,5 +22,5 @@
 **Tipe desain yang digunakan (Pattern/Anti Pattern)**
 >
 
-**Developer + Job Desc
+**Developer + Job Desc**
 >
