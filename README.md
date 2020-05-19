@@ -24,15 +24,18 @@ Dalam mata kuliah PSBO, kelompok kami mendapat client dari SMP Cendekia Baznas y
 
 ## Diagram (use case, Activity, Class)
 ### Use Case Diagram
+![Use Case Diagram](url)
 
 ### Activity Diagram
 
 ### Class Diagram
 
 ## Fitur Secara Umum
-
+- Measukkan dan manajemen data lengkap siswa
+- memasukkan dan manajemen nilai akademik siswa
 
 ## Konsep OOP yang Digunakan
+
 
 ## Tipe desain yang digunakan (Pattern/Anti Pattern)
 
