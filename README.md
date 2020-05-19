@@ -22,6 +22,9 @@
 
 
 ## Developer + Job Desc
+Project Manager + Web Design
+Fauzi (osi)
+
 Input Biodata Siswa
 - Front End : Fakhor Fafa & Fauzan
 - Back End  : Chamdan
