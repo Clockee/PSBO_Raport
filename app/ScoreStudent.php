@@ -12,3 +12,8 @@ class Student extends Model
     //Using Mass Assignment from Laravel
     protected $fillable = ['nama','nis','asrama'];
 }
+
+class ScoreStudent extends Model
+{
+    protected $table = 'nilai';
+}
