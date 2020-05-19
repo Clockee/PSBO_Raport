@@ -23,4 +23,5 @@
 >
 
 **Developer + Job Desc**
->
+> Input Biodata Siswa
+Front End : Fakhor Fafa & Fauzan
