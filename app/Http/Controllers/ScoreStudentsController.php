@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 //Ambil dari Student.php
 //Menggunakan data tabel yang sama dari tabel students
 use App\Student;
-
+use App\Mapel;
 
 use Illuminate\Http\Request;
 
@@ -19,13 +19,15 @@ class ScoreStudentsController extends Controller
     public function index()
     {
         $students = Student::all();
-        return view('scorestudents.index', compact('students'));
+        $mapel = Mapel::all();
+        return view('scorestudents.index', compact('students','mapel'));
     }
 
 
     public function show(Student $student)
     {
         //
+        // dd($student->mapel[0]->pivot->mapel_id);
         return view('scorestudents.show', compact('student'));
     }
 

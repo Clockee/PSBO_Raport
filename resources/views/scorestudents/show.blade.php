@@ -5,6 +5,7 @@
 @section('title', 'Detail Siswa')
 
 @section('container')
+
 <div class="content">
     <div class="row">
         <div class="col-md-12">
@@ -58,279 +59,29 @@
                         <th scope="col">Ubah</th>
                     </tr>
                 </thead>
+                @foreach($student->mapel as $mapel)
                 <tbody>
                     <tr align="center">
-                        <td scope="col">PAI</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
+                        <td scope="col">{{$mapel->kode}}</td>
+                        <td scope="col">{{$mapel->pivot->h1}}</td>
+                        <td scope="col">{{$mapel->pivot->h2}}</td>
+                        <td scope="col">{{$mapel->pivot->h3}}</td>
+                        <td scope="col">{{$mapel->pivot->h4}}</td>
+                        <td scope="col">{{$mapel->pivot->h5}}</td>
+                        <td scope="col">{{$mapel->pivot->h6}}</td>
+                        <td scope="col">{{$mapel->pivot->h7}}</td>
+                        <td scope="col">{{$mapel->pivot->h8}}</td>
+                        <td scope="col">{{$mapel->pivot->hph}}</td>
+                        <td scope="col">{{$mapel->pivot->hpts}}</td>
+                        <td scope="col">{{$mapel->pivot->hpas}}</td>
+                        <td scope="col">{{$mapel->pivot->hpa}}</td>
                         <td scope="col">92,5</td>
                         <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
+                            <a href="{{ $mapel-> mapel_id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
                         </td>
                       </tr>
                 </tbody>
-                <tbody>
-                <tr align="center">
-                        <td scope="col">PKN</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                <tr align="center">
-                        <td scope="col">BIND</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                <tr align="center">
-                        <td scope="col">BING</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                <tr align="center">
-                        <td scope="col">MTK</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">IPA</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">IPS</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">SB</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">PJOK</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">TIK</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">BSUN</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">PLH</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
-                <tbody>
-                      <tr align="center">
-                        <td scope="col">BARAB</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">BE</td>
-                        <td scope="col">92,5</td>
-                        <td>
-                            <a href="{{ $student-> id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
-                        </td>
-                      </tr>
-                </tbody>
+                @endforeach
         </table>
         </div>
     </div>
