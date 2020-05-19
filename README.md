@@ -1,11 +1,9 @@
-# SCB_SIMAK_Biodata_Nilai 
-
-
 ## Nama Sistem
+### SCB SIMAK
 
 
 ## Deskripsi Singkat
-
+**SCB SIMAK** merupakan sebuah platform berbasis web yang berfungsi sebagai data siswa yang terpusat. web ini berisi seluruh biodata dan juga nilai akademik siswa pada SMP Cendekia Baznas.
 
 ## Ruang Lingkup Pengembangan
 
