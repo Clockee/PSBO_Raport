@@ -28,5 +28,5 @@ Input Biodata Siswa
 - Back End  : Chamdan
 
 Input Nilai Akademik
-- Front End : Rafid Rudy Darmawan & Bancin
+- Front End : Rafid Rudy Darmawan & Rizal Fajar Bancin
 - Back End  : Suko Martin & Arya
