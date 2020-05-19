@@ -1,8 +1,8 @@
 # SCB_SIMAK_Biodata_Nilai 
 
 
-- Nama Sistem
-
+**Nama Sistem**
+>
 
 **Deskripsi Singkat**
 >
@@ -24,4 +24,5 @@
 
 **Developer + Job Desc**
 > Input Biodata Siswa
-Front End : Fakhor Fafa & Fauzan
+- Front End : Fakhor Fafa & Fauzan
+- Back End  : Chamdan
