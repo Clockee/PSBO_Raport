@@ -1,26 +1,25 @@
 # SCB_SIMAK_Biodata_Nilai 
 
 
-**Nama Sistem**
->
+## Nama Sistem
 
-**Deskripsi Singkat**
->
 
-**Ruang Lingkup Pengembangan**
->
+## Deskripsi Singkat
 
-**Diagram (use case, Activity, Class)**
->
 
-**Fitur Secara Umum**
->
+## Ruang Lingkup Pengembangan
 
-**Konsep OOP yang Digunakan**
->
 
-**Tipe desain yang digunakan (Pattern/Anti Pattern)**
->
+## Diagram (use case, Activity, Class)
+
+
+## Fitur Secara Umum
+
+
+## Konsep OOP yang Digunakan
+
+## Tipe desain yang digunakan (Pattern/Anti Pattern)
+
 
 ## Developer + Job Desc
 Input Biodata Siswa
