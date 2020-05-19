@@ -5,6 +5,22 @@
 > ??
 
 **Deskripsi Singkat**
+>
 
+**Ruang Lingkup Pengembangan**
+>
 
-Ruang Lingkup Pengembangan
+**Diagram (use case, Activity, Class)**
+>
+
+**Fitur Secara Umum**
+>
+
+**Konsep OOP yang Digunakan**
+>
+
+**Tipe desain yang digunakan (Pattern/Anti Pattern)**
+>
+
+**Developer + Job Desc
+>
