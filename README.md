@@ -22,7 +22,7 @@
 **Tipe desain yang digunakan (Pattern/Anti Pattern)**
 >
 
-**Developer + Job Desc**
-> Input Biodata Siswa
+## Developer + Job Desc
+Input Biodata Siswa
 - Front End : Fakhor Fafa & Fauzan
 - Back End  : Chamdan
