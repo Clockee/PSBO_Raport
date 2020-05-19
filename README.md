@@ -1,7 +1,5 @@
-# SCB_SIMAK_Biodata_Nilai 
-
-
 ## Nama Sistem
+# SCB SIMAK
 
 
 ## Deskripsi Singkat
