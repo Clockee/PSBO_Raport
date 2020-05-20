@@ -16,7 +16,7 @@ Dalam mata kuliah PSBO, kelompok kami mendapat client dari SMP Cendekia Baznas y
 - intel Core i5-7200U
 - RAM 8GB
 
-###Tech-Stack
+### Tech-Stack
 - PHP (Back-end)
 - Laravel + Bootstrap (Front-end)
 - MySQL (DBMS)
