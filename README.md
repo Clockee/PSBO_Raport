@@ -64,10 +64,8 @@ View dalam design pattern MVC mendefinisikan dengan tepat apa yang disajikan kep
  
 ## Controller
 Controller dalam design pattern MVC merupakan bagian yang menjembatani model dan view. Controller berisi perintah-perintah yang berfungsi untuk memproses suatu data dan mengirimkannya ke halaman web. Pada framework laravel, controller ditulis menggunakan bahasa pemrograman PHP.
-- Auth Login
-  Auth controller digunakan untuk mengatur autentikasi saat login sehingga hanya yang memiliki akun guru untuk dapat mengakses sistem informasi akademik siswa. 
-- Controller Siswa
-  Controller Siswa dipergunakan untuk menghubungkan model database siswa dengan view biodata siswa dan nilai siswa.  
+- Auth Login, Auth controller digunakan untuk mengatur autentikasi saat login sehingga hanya yang memiliki akun guru untuk dapat mengakses sistem informasi akademik siswa. 
+- Controller Siswa, Controller Siswa dipergunakan untuk menghubungkan model database siswa dengan view biodata siswa dan nilai siswa.  
 
 ## Developer + Job Desc
 | Nama | NIM | Job Desc |
