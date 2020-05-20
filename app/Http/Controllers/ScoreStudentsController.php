@@ -31,10 +31,21 @@ class ScoreStudentsController extends Controller
         return view('scorestudents.show', compact('student'));
     }
 
-     public function edit(Student $student)
+     public function edit($student_id, $id)
     {
         //
-        return view('scorestudents.edit', compact('student'));
+        $student = \App\Student::find($student_id);
+        $nilai = \App\ScoreStudent::find($id);
+        $mapel = \App\Mapel::find($nilai->mapel_id);
+        // dd($mapel);
+        return view('scorestudents.edit', ['nilai'=> $nilai, 'student'=>$student, 'mapel'=>$mapel]);
+        // return view('scorestudents.edit', compact('students','nilai','mapel'));
+    }
+
+    public function create($student_id)
+    {
+        $student = \App\Student::find($student_id);
+        
     }
 
     /**

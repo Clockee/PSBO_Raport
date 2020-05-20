@@ -31,7 +31,10 @@
         </div>
     </div>
 </div>
+
+
 <br>
+
                 <div class="col-5">
                 <h6 class="mt-2"> Semester 1</h6>
                 </div>
@@ -77,7 +80,7 @@
                         <td scope="col">{{$mapel->pivot->hpa}}</td>
                         <td scope="col">92,5</td>
                         <td>
-                            <a href="{{ $mapel-> mapel_id }}/edit" type="button" class="badge badge-info list-group-item-success">UBAH</a>
+                            <a href="{{$student->id}}/edit/{{$mapel-> id}}" type="button" class="badge badge-info list-group-item-success">UBAH</a>
                         </td>
                       </tr>
                 </tbody>

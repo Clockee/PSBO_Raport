@@ -61,7 +61,8 @@ Route::patch('/students/{student}','StudentsController@update');
 
 Route::get('/scorestudents', 'ScoreStudentsController@index');
 Route::get('/scorestudents/{student}', 'ScoreStudentsController@show');
-Route::get('/scorestudents/{student}/edit', 'ScoreStudentsController@edit');
+Route::get('/scorestudents/{student}/create', 'ScoreStudentsController@create');
+Route::get('/scorestudents/{student_id}/edit/{id}', 'ScoreStudentsController@edit');
 Route::patch('/scorestudents/{student}', 'ScoreStudentsController@update');
 //Route::resource('score_students', 'ScoreStudentsController');
 
