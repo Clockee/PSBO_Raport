@@ -24,7 +24,7 @@ Dalam mata kuliah PSBO, kelompok kami mendapat client dari SMP Cendekia Baznas y
 
 ## Diagram (use case, Activity, Class)
 ### Use Case Diagram
-![Use Case Diagram](url)
+![Use Case Diagram](https://user-images.githubusercontent.com/38348341/82389953-9af0c200-9a67-11ea-8809-520982a7ec71.png)
 
 ### Activity Diagram
 
