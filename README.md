@@ -24,11 +24,13 @@ Dalam mata kuliah PSBO, kelompok kami mendapat client dari SMP Cendekia Baznas y
 
 ## Diagram (use case, Activity, Class)
 ### Use Case Diagram
-![Use Case Diagram](https://user-images.githubusercontent.com/38348341/82389953-9af0c200-9a67-11ea-8809-520982a7ec71.png)
+![Use Case Diagram](https://user-images.githubusercontent.com/38348341/82389958-9d531c00-9a67-11ea-9cf9-36b993ac625c.png)
 
 ### Activity Diagram
+![Activity Diagram](https://user-images.githubusercontent.com/38348341/82389953-9af0c200-9a67-11ea-8809-520982a7ec71.png)
 
 ### Class Diagram
+![Class Diagram](https://user-images.githubusercontent.com/38348341/82389956-9cba8580-9a67-11ea-9caf-936723f18100.png)
 
 ## Fitur Secara Umum
 - Measukkan dan manajemen data lengkap siswa
