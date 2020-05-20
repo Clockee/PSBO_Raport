@@ -75,6 +75,6 @@ Controller dalam design pattern MVC merupakan bagian yang menjembatani model dan
 | Fakhoor Izaaz Wildhanrahma | G64170017 | Front-end | 
 | Suko Martin | G64170065 | Back-end |
 | Arya Pramuja Pradana | G64170087 | Back-end |
-| Fauzi Muhammad Sulaeman | G64170094 | Project Manager + Designer |
+| Fauzi Muhammad Sulaeman | G64170094 | Project Manager + UI/UX |
 | Rizal Fajar Bancin | G64170102 | Front-end |
 | Rafid Rudy Darmawan | G64170111 | Front-end |
